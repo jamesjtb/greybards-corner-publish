@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Greybard's Corner]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Greybard&apos;s Corner</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 06:33:55 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 06:33:49 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 - v2 Errata Merge Changelog]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Greybard's Corner]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Greybard's Corner</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 06:44:07 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 06:44:06 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Determine Equipment Category]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br>GM chooses a modifier from 0-7 based on a range of desired outcomes. This modifier is added to the d6 result to determine the final material.<br><br><br>GM chooses a modifier from 0-4 based on a range of desired outcomes. This modifier is added to the d6 result to determine the final material.<br>]]></description><link>projects/uesrpg/my-homebrew/randomized-equipment/1-generate-base-equipment.html</link><guid isPermaLink="false">Projects/UESRPG/My Homebrew/Randomized Equipment/1 - Generate Base Equipment.md</guid><pubDate>Mon, 04 Nov 2024 01:05:52 GMT</pubDate></item><item><title><![CDATA[Determine Enchantment Type]]></title><description><![CDATA[ 
+ <br><br>Weapons<br><br><br><br><br><br>Alteration<br><br>Conjuration<br><br>Destruction<br>
+Illusion<br>
+Mysticism<br>
+Necromancy<br>
+Restoration]]></description><link>projects/uesrpg/my-homebrew/randomized-equipment/2-generate-enchantment.html</link><guid isPermaLink="false">Projects/UESRPG/My Homebrew/Randomized Equipment/2 - Generate Enchantment.md</guid><pubDate>Wed, 21 May 2025 04:53:08 GMT</pubDate></item><item><title><![CDATA[Project Collaboration]]></title><description><![CDATA[ 
+ <br>I'm in the process of moving some things around to try some things out.<br><br><a data-href="UESRPG 3e v4" href="projects/uesrpg/uesrpg-3e-v4/uesrpg-3e-v4.html" class="internal-link" target="_self" rel="noopener nofollow">UESRPG 3e v4</a>]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 16 Jul 2025 06:42:56 GMT</pubDate></item><item><title><![CDATA[1 - v2 Errata Merge Changelog]]></title><description><![CDATA[ 
  <br>
 <br>Added Drain [Type] Spell
 
@@ -1892,7 +1899,7 @@ Maybe say “enters it” instead
 Rejuvinate<br>
 <img alt="Pasted image 20240313220610.png" src="projects/uesrpg/uesrpg-3e-v4/misc/images/pasted-image-20240313220610.png"><br>
 <img alt="Projects/UESRPG/UESRPG 3e v4/Misc/Images/Untitled 2.png" src="projects/uesrpg/uesrpg-3e-v4/misc/images/untitled-2.png">
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/misc/v4-backchannel.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/Misc/v4 Backchannel.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="projects/uesrpg/uesrpg-3e-v4/misc/images/pasted-image-20240313220253.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;projects/uesrpg/uesrpg-3e-v4/misc/images/pasted-image-20240313220253.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3e v4.a4.0 Feedback]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/misc/v4-backchannel.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/Misc/v4 Backchannel.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="projects/uesrpg/uesrpg-3e-v4/misc/images/pasted-image-20240313220253.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="projects/uesrpg/uesrpg-3e-v4/misc/images/pasted-image-20240313220253.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3e v4.a4.0 Feedback]]></title><description><![CDATA[ 
  <br>
 <br>“Sload Player Characters” is at the wrong heading level
 <br>There’s a weird font issue in the optional generate Characteristics rule on pg. 45
@@ -1937,7 +1944,7 @@ Rejuvinate<br>
 
 <br>Misspelled Become Ethereal in the Constant Enchants section. Also consider separating out the allowed and disallowed effects sentence for clarity.
   <img alt="Untitled 1 2.png" src="lib/media/untitled-1-2.png">
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/feedback/v4.a3.2-feedback.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Feedback/v4.a3.2 Feedback.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="lib/media/untitled-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/untitled-2.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Alpha Playtest Targets]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/feedback/v4.a3.2-feedback.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Feedback/v4.a3.2 Feedback.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="lib/media/untitled-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/untitled-2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Alpha Playtest Targets]]></title><description><![CDATA[ 
  <br>
 <br>Spell Absorption between Spells, Dragonskin Breton Talent, and Birthsign
 ]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/alpha-playtest-targets.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Alpha Playtest Targets.md</guid><pubDate>Thu, 14 Mar 2024 00:41:19 GMT</pubDate></item><item><title><![CDATA[Apocrypha Merge Canditates]]></title><description><![CDATA[ 
@@ -1993,7 +2000,7 @@ This creature is bound to this world, or simply bound together by magic. They mu
 
 <br>Issue with berserker talents brought up by angathor ✅ 2024-10-20
   <img alt="Untitled 3 2.png" src="lib/media/untitled-3-2.png">
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/balance-tweak-considerations.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Balance-Tweak Considerations.md</guid><pubDate>Mon, 21 Oct 2024 00:10:50 GMT</pubDate><enclosure url="lib/media/untitled-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/untitled-4.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Black Book Merge Finalists]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/balance-tweak-considerations.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Balance-Tweak Considerations.md</guid><pubDate>Mon, 21 Oct 2024 00:10:50 GMT</pubDate><enclosure url="lib/media/untitled-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/untitled-4.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Black Book Merge Finalists]]></title><description><![CDATA[ 
  <br>
 <br>Book of Shifting Tides
 
@@ -2082,7 +2089,7 @@ When your shock-based spells hit an armored body part without the Magic property
 
 
 
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/content-suggestions.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Content Suggestions.md</guid><pubDate>Mon, 20 May 2024 03:54:33 GMT</pubDate><enclosure url="lib/media/pasted-image-20240519235206.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240519235206.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Scroll Merge Considerations]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/content-suggestions.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Content Suggestions.md</guid><pubDate>Mon, 20 May 2024 03:54:33 GMT</pubDate><enclosure url="lib/media/pasted-image-20240519235206.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/pasted-image-20240519235206.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Scroll Merge Considerations]]></title><description><![CDATA[ 
  <br>
 <br>Consider using BB Lich
   decided against it, though we did take the ability for the base lich from the BB.<br>
@@ -2162,7 +2169,7 @@ You have learned to focus your Magicka into your strikes, allowing them to hit o
 <br>Reaction using dash is broken if done in response to an attack
 <br>Discuss Blademaster talent and purge defensive stance from the book completely
 <br>Natural Toughness needs to explicitly state that it reduces all incoming damage
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/scroll-merge-considerations.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Scroll Merge Considerations.md</guid><pubDate>Mon, 06 May 2024 02:22:33 GMT</pubDate><enclosure url="lib/media/untitled-3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/untitled-3.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Scroll Merge To-dos]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/scroll-merge-considerations.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/The Road to v4/Scroll Merge Considerations.md</guid><pubDate>Mon, 06 May 2024 02:22:33 GMT</pubDate><enclosure url="lib/media/untitled-3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/untitled-3.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Scroll Merge To-dos]]></title><description><![CDATA[ 
  <br>
 <br>Point buy - budget reduced to 80, can no longer be spent on luck. Luck must still be rolled for.
 <br>Alfiq - Add the following under “Other”
@@ -3666,7 +3673,7 @@ The character can invoke any spell the character knows to induce minor effects, 
 
 
 
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/vc-notes/archive/2024-03-24.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/VC Notes/Archive/2024-03-24.md</guid><pubDate>Mon, 29 Apr 2024 03:14:51 GMT</pubDate><enclosure url="lib/media/pasted-image-20240324202635.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240324202635.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-03-31]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/vc-notes/archive/2024-03-24.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/VC Notes/Archive/2024-03-24.md</guid><pubDate>Mon, 29 Apr 2024 03:14:51 GMT</pubDate><enclosure url="lib/media/pasted-image-20240324202635.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/pasted-image-20240324202635.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-03-31]]></title><description><![CDATA[ 
  <br>
 <br>Discuss a way to determine the attack tag for spell creation/uncon
 
@@ -3897,7 +3904,7 @@ This barrier's HP does not belong to the target, but rather is the HP of the bar
 
 
 <br>Add a chart for damage die steps to the Rules Compendium ✅ 2024-10-13
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/vc-notes/2024-09-22.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/VC Notes/2024-09-22.md</guid><pubDate>Mon, 14 Oct 2024 00:10:20 GMT</pubDate><enclosure url="lib/media/pasted-image-20240919112749.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240919112749.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-09-29]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/vc-notes/2024-09-22.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/VC Notes/2024-09-22.md</guid><pubDate>Mon, 14 Oct 2024 00:10:20 GMT</pubDate><enclosure url="lib/media/pasted-image-20240919112749.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/pasted-image-20240919112749.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-09-29]]></title><description><![CDATA[ 
  <br>
 <br>Treasure Tables ✅ 2024-10-13
 
@@ -4740,7 +4747,7 @@ If we make it so the attacker can only gain one advantage, we should make it so 
 <br>Character creation quickref ✅ 2024-10-20
 <br>Hunger’s Daedric Poison ability should specify that the damage ignores armor ✅ 2024-10-20
 <br>Dark seducer’s seducer’s touch should ✅ 2024-10-20
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/ideas-and-things-to-look-at.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/Ideas and Things to Look At.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="projects/uesrpg/uesrpg-3e-v4/misc/images/untitled.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;projects/uesrpg/uesrpg-3e-v4/misc/images/untitled.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Proofreading]]></title><description><![CDATA[ 
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/ideas-and-things-to-look-at.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/Ideas and Things to Look At.md</guid><pubDate>Wed, 22 Jan 2025 23:11:26 GMT</pubDate><enclosure url="projects/uesrpg/uesrpg-3e-v4/misc/images/untitled.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="projects/uesrpg/uesrpg-3e-v4/misc/images/untitled.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Proofreading]]></title><description><![CDATA[ 
  <br>
 <br>
 From the Bound trait, “creators” should be “creator’s”
@@ -5091,7 +5098,4 @@ Current pricing (for partial, but both are screwed up): 3500 limb / 5000 body (1
 
 
 
-]]></description><link>projects/uesrpg/uesrpg-3e-v4/v4.0-release-to-do-list.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/v4.0 Release To-Do List.md</guid><pubDate>Sun, 13 Jul 2025 22:26:06 GMT</pubDate><enclosure url="lib/media/pasted-image-20250505104123.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20250505104123.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Project Collaboration]]></title><description><![CDATA[ 
- <br>I'm in the process of moving some things around to try some things out.<br><br><a data-href="UESRPG 3e v4" href="projects/uesrpg/uesrpg-3e-v4/uesrpg-3e-v4.html" class="internal-link" target="_self" rel="noopener nofollow">UESRPG 3e v4</a><br><br><br>
-<br><a data-tooltip-position="top" aria-label="Posts/2025/Game Mastering is (Probably) Easy.md" data-href="Posts/2025/Game Mastering is (Probably) Easy.md" href="posts/2025/game-mastering-is-(probably)-easy.html" class="internal-link" target="_self" rel="noopener nofollow">Game Mastering is (Probably) Easy</a>: January 22, 2025
-<br>]]></description><link>greybard&apos;s-corner-home.html</link><guid isPermaLink="false">Greybard&apos;s Corner - Home.md</guid><pubDate>Thu, 23 Jan 2025 05:35:24 GMT</pubDate></item></channel></rss>
+]]></description><link>projects/uesrpg/uesrpg-3e-v4/v4.0-release-to-do-list.html</link><guid isPermaLink="false">Projects/UESRPG/UESRPG 3e v4/v4.0 Release To-Do List.md</guid><pubDate>Sun, 13 Jul 2025 22:26:06 GMT</pubDate><enclosure url="lib/media/pasted-image-20250505104123.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/pasted-image-20250505104123.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
