@@ -1,0 +1,510 @@
+<!DOCTYPE html> <html><head>
+		<title>3 - v3 Merge Changelog</title>
+		<base href="../../../../">
+		<meta id="root-path" root-path="../../../../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Greybard's Corner - 3 - v3 Merge Changelog">
+		<meta property="og:title" content="3 - v3 Merge Changelog">
+		<meta property="og:description" content="Greybard's Corner - 3 - v3 Merge Changelog">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="projects/uesrpg/uesrpg-3e-v4/changelogs/3-v3-merge-changelog.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="Greybard's Corner">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="3 - v3 Merge Changelog"><p dir="auto">3 - v3 Merge Changelog</p></h1><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Added a section to the end of the Critical Successes &amp; Failures section in chapter one that reads:
+<blockquote dir="auto">
+<p>Creatures and NPCs do not have Luck like a Player Character does; however, they still have the capacity to critically succeed or fail.<br>
+On a roll of 1-3, the roll is considered a Critical Failure.<br>
+On a roll of 98-100, the roll is considered a Critical Success.  </p>
+</blockquote>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Alternate Wounds
+<ul>
+<li data-line="7" dir="auto">Added an optional rule blurb to the end of the Wounds section in Chapter 5:
+<blockquote dir="auto">
+<p><strong>Optional Rule: Alternate Wounds</strong><br>
+If your group prefers less bookkeeping and a more forgiving experience, you can use this rule instead of the standard rules for Wounds:<br>
+Instead of a character taking a Wound when they take damage in excess of their WT, they take a wound if they ever take damage from a critical success on an attack or if an attack reduces them to 0 Hit Points.  </p>
+</blockquote>
+</li>
+<li data-line="13" dir="auto">Added an optional rule note to Step 4 in the Attacking &amp; Defending section in Chapter 5:
+<blockquote dir="auto">
+<p>Optional Rule Note: Alternate Wounds<br>
+If you’re using the rules for Alternate Wounds found in Physical Health later in this chapter, then the attack instead causes a Wound if it brings the target to 0 HP or if the attack is a Critical Success and causes the target to take Damage.  </p>
+</blockquote>
+</li>
+<li data-line="18" dir="auto">Added an optional rule note after the Wound Threshold Attribute in Chapter 1:
+<blockquote dir="auto">
+<p>Optional Rule Note: Alternate Wounds<br>
+If you’re using the rules for Alternate Wounds found in Physical Health later in Chapter 5, then your character will not have a Wound Threshold Attribute.  </p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li data-line="23" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Added the Linguistics attribute to Chapter 1 &gt; Attributes and Chapter 2 &gt; Finishing Touches. Changed the v3 formula (IB / 2) to IB - 2 or 4, whichever is lower.
+<blockquote dir="auto">
+<p>A character’s Linguistics is equal to their Intelligence bonus minus two to a maximum of four and reflects the maximum number languages that they can start with at character creation. Every character starts with Cyrodilic, which is the common tongue around Tamriel and doesn’t count as one of the languages known from this attribute. One Exotic language counts as 2 languages known. Players should check in with their GM if they choose from the list of Exotic Languages. Additionally, GMs may expand this list of languages to fit the setting.</p>
+</blockquote>
+<ul>
+<li data-line="27" dir="auto">Added the Breton | Bretic race language</li>
+<li data-line="28" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Added the following Exotic Languages:
+<ul>
+<li data-line="29" dir="auto">Ehlnofey | Ehlnofex</li>
+<li data-line="30" dir="auto">Akavir | Akaviri</li>
+<li data-line="31" dir="auto">Reachfolk | Reach-tongue</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="32" dir="auto">Changed Power Attack in the Spending Stamina Section of Ch 1 to read
+<blockquote dir="auto">
+<p>Add an amount of damage to a melee <strong>or ranged</strong> attack equal to twice the stamina points spent, to a maximum of 3 for +6 damage.</p>
+</blockquote>
+</li>
+<li data-line="36" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Added a Skill Level Maximum section to Spend CrP &amp; Purchase Items:
+<blockquote dir="auto">
+<p>Depending on however much Crp or total Exp your character has, they can only purchase a certain amount of Ranks in any skill. These are the appropriate skill rank maximums that a character can have in relation to their Crp/ total Exp:</p>
+</blockquote>
+<ul>
+<li data-line="40" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Skill Rank Maximums to Total XP
+<ul>
+<li data-line="41" dir="auto">Apprentice - 1000</li>
+<li data-line="42" dir="auto">Journey - 2500</li>
+<li data-line="43" dir="auto">Adept - 4000</li>
+<li data-line="44" dir="auto">Expert - 5500</li>
+<li data-line="45" dir="auto">Master - 7000</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="46" dir="auto">Added Learning a Ritual - 25 CrP to Spend CrP &amp; Purchase Items &gt; Character Advancement CrP Costs</li>
+<li data-line="47" dir="auto">Modified Ancestor Guardian to persist “until 30 minutes passes, or until the end of a Combat Encounter that it participates in; whichever comes first”</li>
+<li data-line="48" dir="auto">Moved the Combat Style section to the end of the Skill Chapter</li>
+<li data-line="49" dir="auto">Changed the text of the Combat Senses talent to read:
+<blockquote dir="auto">
+<p>The character can choose to calculate their Initiative Rating by taking twice their Perception Bonus and adding two instead of the usual formula.</p>
+</blockquote>
+</li>
+<li data-line="53" dir="auto">Added an optional rule for Turn-Based AP Refreshing:
+<blockquote dir="auto">
+<p><strong>Optional Rule: Turn-Based AP Refreshing</strong><br>
+For an alternative strategic experience, your group can choose to play with this variant AP Refreshing ruleset.<br>
+As combat starts, all characters start the first round with Maximum AP. Then, in all subsequent rounds, characters replenish their AP at the start of their turn.  </p>
+</blockquote>
+</li>
+<li data-line="59" dir="auto">Added the Assassinate talent:
+<blockquote dir="auto">
+<p>Assassinate<br>
+The character takes advantage of stealth to set a deadly strike.<br>
+Apprentice (Agility)<br>
+Requires Sneak Attack<br>
+The character can cause only the damage from Sneak Attack to ignore any AR of the hit location they are hitting if they are attacking with a one-handed weapon that has the Exploit Weakness Weapon Quality.  </p>
+</blockquote>
+</li>
+<li data-line="67" dir="auto">Changed the Rank for Sneak Attack to Apprentice</li>
+<li data-line="68" dir="auto">Changed the Rank for Shadow Strike to Expert</li>
+<li data-line="69" dir="auto">Changed the text for Shadow Strike:
+<blockquote dir="auto">
+<p>If the character makes an attack while hidden <del>(melee attacks<br>
+made this way must kill the target in order to benefit)</del>then they can attempt a Stealth test opposed by the Observe of any enemies who would reasonably be able to notice the attack. On success, or if they roll more degrees of success, they remain hidden from those enemies. If the attack is a melee attack, then the character must forgo the advantage gained from the hidden condition to benefit from this talent.</p>
+</blockquote>
+</li>
+<li data-line="74" dir="auto">Changed Perfect Hit talent from
+<blockquote dir="auto">
+<p>Master (Perception): The character adds their Perception bonus to the damage dealt by Precision Strike attacks (either melee or ranged).”</p>
+</blockquote>
+  to:
+<blockquote dir="auto">
+<p>Expert (Perception): The character can use their Perception Bonus for the purposes of determining Splitting, Slashing, or Crushing damage in place of their Strength bonus.</p>
+</blockquote>
+</li>
+<li data-line="82" dir="auto">Changed Master Alchemist to increase strength by 20% instead of 10% (which stacks to 30% with Alchemist [School]).</li>
+<li data-line="83" dir="auto">Changed the text of the Grandmaster talent, adding benefits for spellcasting skills
+<blockquote dir="auto">
+<p>The character may reroll failed skill tests for that skill (but only once for a given test). This talent can be purchased multiple times for different skills. Does not stack with other talents that would allow rerolls. If this talent is taken with a spellcasting skill, then it increases the +1 bonus to effective skill rank to a +2. Which allows for the casting of Grandmaster spells. without penalty.</p>
+</blockquote>
+</li>
+<li data-line="87" dir="auto">Reduced the Interrogator talent level from Journeyman to Apprentice</li>
+<li data-line="88" dir="auto">Reduced the Unnaturally Agile talent from Master to Expert</li>
+<li data-line="89" dir="auto">Added a restriction to the Stubborn talent to only allow rerolls once per test</li>
+<li data-line="90" dir="auto">Added a restriction to the Fearless talent to only allow rerolls once per test</li>
+<li data-line="91" dir="auto">Reduce Fearless talent level to Expert</li>
+<li data-line="92" dir="auto">Changed the Wall of Steel talent
+<blockquote dir="auto">
+<p>The Character increases the AR and BR of any armor and shields worn by +1. Additionally, the character ignores the speed penalty from any armor worn.</p>
+</blockquote>
+</li>
+<li data-line="96" dir="auto">Reduced the Depth of understanding talent level to Expert and modfied it to grant the Power Well (IB x 5) Trait.</li>
+<li data-line="97" dir="auto">Removed Force of Will, and used it’s text to replace Magicka Cycling’s, but made it improve by 2</li>
+<li data-line="98" dir="auto">Modified Master of Magicka’s Prerequisite talents to Include Depth of Understanding OR Magicka Cycling.</li>
+<li data-line="99" dir="auto">Removed the restriction against taking Depth of Understanding if you’ve taken force of will.</li>
+<li data-line="100" dir="auto">Modified Bearded Warrior talent - rather than moving 1m closer, they can yank the target 1m in any direction that doesn’t cause their distance from them to increase.</li>
+<li data-line="101" dir="auto">Removed the +10 bonus to persuade granted by the Beast of Steel talent.</li>
+<li data-line="102" dir="auto">Changed Bruiser talent to read:
+<blockquote dir="auto">
+<p>The character increases their damage with thrown axes by their Strength bonus. This replaces the Agility bonus added by Dart Thrower, if chosen. Making throwing attacks with hand axes does not provoke attacks of opportunity, and thrown axes can be retrieved as a free action if the character is able to move to where the axe landed. Drawing hand axes does not provoke attacks of opportunity. Additionally, maces the character wields gain the Concussive quality and their All Out Attacks cause the target to lose one stamina if the target takes damage from the attack after mitigation.</p>
+</blockquote>
+</li>
+<li data-line="106" dir="auto">Changed the Firing Line to read:
+<blockquote dir="auto">
+<p>Any ranged attack the character makes with a Crossbow or Arbalest adds the Splitting Quality with a value equal to twice the number of Aim Actions made before the shot.<br>
+Additionally, if they have a tower shield, it can be set up as a secondary action and used as cover. While behind the shield, the character can take a single aim action as a free action if they do not move or reload during that turn.  </p>
+</blockquote>
+</li>
+<li data-line="111" dir="auto">Changed the Halberdier talent:</li>
+<li data-line="112" dir="auto">
+<blockquote dir="auto">
+<p>The character becomes more effective with their halberds, and can use them to knock opponents off of their mounts.<br>
+Expert (Strength)<br>
+The character can choose to replace their halberd’s Splitting quality with the Crushing quality. Halberds the character wields range becomes 3m. Additionally, The character can spend 1SP to force the rider of a mount to make and succeed a Ride test or fall off of their mount, landing prone.  </p>
+</blockquote>
+</li>
+<li data-line="116" dir="auto">Changed the Hammerblow talent to read:
+<blockquote dir="auto">
+<p>When the character lands a hit with a warhammer or maul they can choose to either cause their target to lose one Stamina Point, or make an all-out-attack to force the target to make an Endurance (+0) test. If the target fails this test, they gain the Dazed condition. The target may attempt one Endurance (+10) test on his first turn each round to remove the condition.</p>
+</blockquote>
+</li>
+<li data-line="120" dir="auto">Added The following to the Knife Fighter talent:
+<blockquote dir="auto">
+<p>When the character uses the Penetrate Armor Advantage, they can add 1d4 to their damage roll.</p>
+</blockquote>
+</li>
+<li data-line="124" dir="auto">Added support for Alternate Wounds with the Monster Hunter talent:
+<blockquote dir="auto">
+<p>Optional Rule Note: Alternate Wounds<br>
+If your group is using the alternate rules for Wounds defined in the Physical Health section in Chapter 5, simply disregard the interaction with Wound Threshold in the Monster Hunter talent.  </p>
+</blockquote>
+</li>
+<li data-line="129" dir="auto">Changed the Viper’s Eye talent to read:
+<blockquote dir="auto">
+<p>Spears the character wields gain Slashing. Additionally, Precision Strikes with a spear replaces Slashing with Crushing, and are only made at a -10 penalty. When wielding a spear in two hands it loses Unwieldy and its range is simply 3m.</p>
+</blockquote>
+</li>
+<li data-line="133" dir="auto">Changed the Point Blank talent to read:
+<blockquote dir="auto">
+<p>When using a shortbow, the character never provokes attacks of opportunity when using it to make attacks within melee range of an enemy, and can use the weapon to attempt to parry attacks. Shortbows the character wields gain Exploit Weakness. Additionally, the character can gain an advantage by normal means when using a shortbow against a target within the target’s melee range.</p>
+</blockquote>
+</li>
+<li data-line="137" dir="auto">Added “once per test” to the end of Simple, Yet Effective talent.</li>
+<li data-line="138" dir="auto">Modified the Staff Mastery talent to not reduce the penalty for precision strikes.</li>
+<li data-line="139" dir="auto">Added the Bleeding (X) trait</li>
+<li data-line="140" dir="auto">Added the following to the Telekinesis trait:
+<blockquote dir="auto">
+<p>The character can also throw an object ast an opponent. This is a Primary Action and a Ranged Attack, and uses Mysticism (Willpower) for the test. Any object used in this manner counts as an improvised weapon, and can only be thrown a distance of WpB * 2 meters.</p>
+</blockquote>
+</li>
+<li data-line="144" dir="auto">Removed the rules section for Item Durability which was added from the v2 errata. The idea is that forceful impact is a simpler way to implement item durability for armor and weapons</li>
+<li data-line="145" dir="auto">Added “For unarmed Coup de Grâce, refer to the Grappling rules.” to the Coup de Grace rule under Primary Actions</li>
+<li data-line="146" dir="auto">Added the ability to use the Aim secondary action for spellcasting, but only for spells with the “Bolt” form.</li>
+<li data-line="147" dir="auto">Added “Any character may use a reaction to an Attack of Opportunity without interrupting their current action, but they must be able to see their target.” to the Attack of Opportunity description</li>
+<li data-line="148" dir="auto">Combined Block, Parry, and Evade into a single section which reads: “The character tries to defend against an incoming ranged or melee attack. See the Attacking &amp; Defending section for details.”</li>
+<li data-line="149" dir="auto">Merged the Disarm and Take Weapon actions, but just called it “Disarm”.
+<blockquote dir="auto">
+<p>Character makes an Athletics or unarmed Combat Style test which his opponent may oppose with his unarmed Combat Style or Athletics skill. If the target of the disarm attempt loses, the character may choose to either take the target’s weapon or fling the target’s weapon 1d4 meters in a random direction. The character must have a free hand in order to take the target’s weapon. Target cannot be of larger size and must be within 2 meters. Cannot disarm natural weapons.</p>
+</blockquote>
+</li>
+<li data-line="153" dir="auto">Added the blinded condition as a removable condition with the Resist action.</li>
+<li data-line="154" dir="auto">Added the Feint special action:
+<blockquote dir="auto">
+<p>Primary Action<br>
+A character attempts a Combat Style test against an opponent’s Observe or Combat Style within a 2m range. If successful, they treat their next melee attack against the target as if they were Hidden. This effect only applies if the attack occurs before the end of the character’s next turn.  </p>
+</blockquote>
+</li>
+<li data-line="159" dir="auto">Added the <strong>Cast Magic Attacks</strong> option to the Attack step under Attacking and Defending:
+<blockquote dir="auto">
+<p>The attacking caster makes a skill test with the skill corresponding to the school of the spell.</p>
+</blockquote>
+</li>
+<li data-line="163" dir="auto">Added a clarification to the Counter-Attack option in Attacking and Defending Step 3: “If both characters achieve the same degrees of success, then neither the Attack nor the Counter-Attack resolve.”</li>
+<li data-line="164" dir="auto">Added the Forceful Impact Advantage:
+<blockquote dir="auto">
+<p>The character can apply the Damaged(1) quality to any armor on the hit location. This may only be done if the weapon the character is using has the Crushing quality.</p>
+</blockquote>
+</li>
+<li data-line="168" dir="auto">In the “Death” section, changed “pass an Endurance test each round” to “pass an Endurance test at the end of each of their turns”.</li>
+<li data-line="169" dir="auto">Changed the section name “Shock Test” to “Shock Effects”, as the section deals with the effects of shock, and there are effects even if the test is succeeded.</li>
+<li data-line="170" dir="auto">Added the following to the end of Treating Wounds: “Treating a wound related to the Crippled Condition can only be done once per long rest. If this test results in a dramatic failure, the limb immediately becomes Maimed.”</li>
+<li data-line="171" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Changed Fatigue to apply when a character goes below 1 level of fatigue, rather than when the reach zero.
+<ul>
+<li data-line="172" dir="auto">Changed the last sentence of the first paragraph of Spending Stamina (ch1) to read:
+<blockquote dir="auto">
+<p>When characters goes below zero SP they gain a level of fatigue.</p>
+</blockquote>
+</li>
+<li data-line="176" dir="auto">Changed the “Fatigued” section’s first paragraphin ch. 5 to read:
+<blockquote dir="auto">
+<p>When a chracter gains a level of fatigue, they acquire the Fatigued condition. If they gain additional levels of fatigue, the effects worsen. Fatigue is most typically gained when a character falls below 0 SP, or spends/loses SP when they are at 0.</p>
+</blockquote>
+</li>
+<li data-line="180" dir="auto">Stamina Points (Endurance Bonus) under “Attributes”:
+<blockquote dir="auto">
+<p>When characters fall below zero SP they gain a level of the fatigue condition.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li data-line="184" dir="auto">Added an optional rule note for the Frenzied condition:
+<blockquote dir="auto">
+<p>If you’re using the rules for Alternate Wounds, disregard the WT increase in this bullet point.</p>
+</blockquote>
+</li>
+<li data-line="188" dir="auto">Added an optional rule note for Alternate Wounds to Organ Damage:
+<blockquote dir="auto">
+<p>If you’re using the rules for Alternate Wounds; instead of reducing WT by 1, increase the passive wound penalty to all tests to -30.</p>
+</blockquote>
+</li>
+<li data-line="192" dir="auto">Specified that ““Snapping out” of the fear always happens at the end of their turn.” in the Fear Effects section.</li>
+<li data-line="193" dir="auto">Fixed Inspire Heroism to read:
+<blockquote dir="auto">
+<p>Once per round as a free action, the character can make a command test to inspire an ally who can perceive them. When inspired, the ally gains +10 to their next combat test.</p>
+</blockquote>
+</li>
+<li data-line="197" dir="auto">Added Orcish to the racial languages</li>
+<li data-line="198" dir="auto">In step 2: Casting Test in Casting Spells, added the concept of a character’s Spellcasting Level:
+<blockquote dir="auto">
+<p>This test suffers a -10 penalty for each point by which the spell level exceeds the character’s <strong>Spellcasting Level</strong> in that skill. The Spellcasting Level is determined by taking the spell’s school skill level and adding one. If the character is untrained in that school’s skill, the Spellcasting Level in that school is considered zero and they cannot cast the spell.</p>
+</blockquote>
+</li>
+<li data-line="202" dir="auto">R/M Attack have been split into their own listings under Spell Attributes. Also specified that M Attacks don’t provoke attacks of opportunity.</li>
+<li data-line="203" dir="auto">Added Mindlock (X): Reduces the caster’s max AP by X to a minimum of zero.</li>
+<li data-line="204" dir="auto">Removed the Reaction Attribute</li>
+<li data-line="205" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Added the following Talents:
+<ul>
+<li data-line="206" dir="auto">Mage Guard<br>
+The character is able to channel excess magicka to harden their defensive spells.<br>
+Journeyman (Willpower)<br>
+The character can add a +1 bonus to the effect of a spell they cast with the Defensive Overload attribute. They must not restrain the spell during casting to gain this benefit.<br>
+</li>
+<li data-line="211" dir="auto">Arcane Defender<br>
+The character has mastered their magical defensive abilities and is able to use excess magicka more effectively when on the defensive.<br>
+Master (Willpower)<br>
+Requires Arcane Defender<br>
+The character increases the bonus gained from the Mage Guard Talent from 1 to WB/2 (round up).<br>
+</li>
+</ul>
+</li>
+<li data-line="217" dir="auto">Added the “Defensive Overload” spell attribute:
+<blockquote dir="auto">
+<p>By default, spells with the Defensive Overload attribute have no extra effects. When a character takes the Mage Guard and later, the Arcane Defender talents, they benefit from a a bonus to the spell effect if not restraining the spell.</p>
+</blockquote>
+</li>
+<li data-line="221" dir="auto">Added the Defensive Overload Attribute to: Armor, Magic Armor, Magic Shield, Shield, [Type] Armor, [Type] Shield, and Ward</li>
+<li data-line="222" dir="auto">Modified Costs for Burden, Feather, Jump, levitate, Lock, Magic Armor, Open, Repair, Shield, Slowfall, [Type] Armor, [Type] Shield, Water Breathing, Water Walking, Ward</li>
+<li data-line="223" dir="auto">Changed both Ward spells to read
+<blockquote dir="auto">
+<p>May be cast as a reaction to an attack in place of the character’s normal defense, and does not provoke Attacks of Opportunity. Caster generates a magical ward that acts as a shield for all damage, gaining [Spell Strength] Magical and Physical BR. Power Block is incompatible with this shield.</p>
+</blockquote>
+</li>
+<li data-line="227" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Renamed the Shield family of spells and effects to better match the mechanics
+<ul>
+<li data-line="228" dir="auto">Shield/Physical Shield becomes Stoneflesh</li>
+<li data-line="229" dir="auto">Magic Shield becomes Ebonyflesh</li>
+<li data-line="230" dir="auto">[Type] Shield becomes [Type]flesh</li>
+<li data-line="231" dir="auto">Elemental Shield spell effect becomes Elemental Flesh</li>
+</ul>
+</li>
+<li data-line="232" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Modify base cost of the newly named flesh family of spells, and change the conventional Spell Form to “Target”:
+<ul>
+<li data-line="233" dir="auto">Stoneflesh and Ebonyflesh reduced to 2 x SL</li>
+<li data-line="234" dir="auto">Elemental Flesh reduced to 1 x SL</li>
+<li data-line="235" dir="auto">Modified the spells to read “Target character within 50m of caster” rather than “Caster”</li>
+<li data-line="236" dir="auto">Modified costs of the conventional spells to match this formula and spell form</li>
+</ul>
+</li>
+<li data-line="237" dir="auto">Added all Conjuration spells from the Scroll of Oblivion</li>
+<li data-line="238" dir="auto">Added all Conjuration talents from the Scroll of Oblivion</li>
+<li data-line="239" dir="auto">Fixed Thought Caster by adding Spell Sword talent as a prerequisite</li>
+<li data-line="240" dir="auto">Changed hunger spell strength in Summon Daedra spell from 2 to 1</li>
+<li data-line="241" dir="auto">Added Direct tag to Sunder Binding spell</li>
+<li data-line="242" dir="auto">Changed Sunder Binding description to read:
+<blockquote dir="auto">
+<p>The caster picks a target within 50m that has the Summoned<br>
+trait. Target must make an opposed Willpower Test vs the caster<br>
+with a [Spell Strength] modifier or be sent back to the place<br>
+from whence it came.  </p>
+</blockquote>
+</li>
+<li data-line="249" dir="auto">Change chain lighning from direct to R Attack (50m)</li>
+<li data-line="250" dir="auto">Changed Drain [Type] to Direct Attack</li>
+<li data-line="251" dir="auto">Updated various Destruction spells to match spell effect/form cost changes</li>
+<li data-line="252" dir="auto">Changed Blind from Direct to Direct Attack</li>
+<li data-line="253" dir="auto">Added a note to Calm: “Note: If a character while under this spell’s effect is struck by a Frenzy effect, than this spell effect is immediately nullified”</li>
+<li data-line="254" dir="auto">Updated various Illusion spells to match spell effect/form cost changes</li>
+<li data-line="255" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Changed illusion spells to direct attack from direct
+<ul>
+<li data-line="256" dir="auto">Calm</li>
+<li data-line="257" dir="auto">Charm</li>
+<li data-line="258" dir="auto">Frenzy</li>
+<li data-line="259" dir="auto">Horror</li>
+<li data-line="260" dir="auto">Panic</li>
+<li data-line="261" dir="auto">Paralyze</li>
+<li data-line="262" dir="auto">Silence</li>
+</ul>
+</li>
+<li data-line="263" dir="auto">Updated various Mysticism spells to match spell effect/form cost changes</li>
+<li data-line="264" dir="auto">Changed Absorb Magicka from Direct to Direct Attack</li>
+<li data-line="265" dir="auto">Removed overload from Absorb Magicka</li>
+<li data-line="266" dir="auto">Changed Mark spell from:
+<blockquote dir="auto">
+<p>Places an invisible, magic mark at the caster’s current location. Use common sense when deciding how many different marks a character can keep track of at once.</p>
+</blockquote>
+  to:
+<blockquote dir="auto">
+<p>Places an invisible, magic mark at the caster’s current location. The amount of marks a character can keep track of is equal to their Intelligence Bonus.</p>
+</blockquote>
+</li>
+<li data-line="274" dir="auto">Updated various Restoration spells to match spell effect/form cost changes</li>
+<li data-line="275" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Added the ritual section with the following rituals:
+<ul>
+<li data-line="276" dir="auto">Rite of Focus</li>
+<li data-line="277" dir="auto">Rite of Textual Inscription</li>
+<li data-line="278" dir="auto">Rite of Motion</li>
+<li data-line="279" dir="auto">Rite of Sight</li>
+<li data-line="280" dir="auto">Rite of Morpholithic Inscription</li>
+</ul>
+</li>
+<li data-line="281" dir="auto">Removed the examples from “The Big Three”. They are wordy and don’t add much in the way of clarification.</li>
+<li data-line="282" dir="auto">Added “The weapon does not increase the range of any spell as a result of its reach” to the end of the entry for the Focus weapon trait</li>
+<li data-line="283" dir="auto">Renamed Bodkin and Broadhead arrows to Slashing and Splitting Arrows.</li>
+<li data-line="284" dir="auto">Added the Mindlock attribute to the spell Attributes</li>
+<li data-line="285" dir="auto">Changed Direct Attack to read: “This spell has a target or targets, counts as an attack, and requires a Primary Action to cast. These kinds of spells cannot do damange, and cannot be defended against by normal means.”</li>
+<li data-line="286" dir="auto">Decreased Self form cost to 1</li>
+<li data-line="287" dir="auto">Increased Touch form cost to 1</li>
+<li data-line="288" dir="auto">increased Target form cost to 4</li>
+<li data-line="289" dir="auto">Changed Target description to “Affects a single target character within 50m of the caster. If this spell would alter the Target’s mind or harm them in any way, this form becomes a Direct Attack.”</li>
+<li data-line="290" dir="auto">Changed Chain form to R Attack (50m)</li>
+<li data-line="291" dir="auto">Changed Cloack form cost to 4</li>
+<li data-line="292" dir="auto">Decreased Pulse spell form to 4 + Z</li>
+<li data-line="293" dir="auto">Gave Elemental Armor, Magic Armor, and Armor the Defensive Overload attribute</li>
+<li data-line="294" dir="auto">Increased Drain [Characteristic] spell effect to 8 x SL</li>
+<li data-line="295" dir="auto">increased Fire, Frost, and Shock effects to 2 x SL</li>
+<li data-line="296" dir="auto">increased sunlight to 3 x SL</li>
+<li data-line="297" dir="auto">Introduced mutual exclusivity to the calm and frenzy spell effects</li>
+<li data-line="298" dir="auto">Modified Cure Disease to read:
+<blockquote dir="auto">
+<p>Affected target removes the Diseased SL Condition<br>
+Spell Level 2 = Common<br>
+Spell Level 4 = Magical  </p>
+<p>Note: This effect always counts as being either Spell Level 2 or Spell Level 4</p>
+</blockquote>
+</li>
+<li data-line="306" dir="auto">Increased rejuvinate cost to 25</li>
+<li data-line="307" dir="auto">In Step 5 of Cast Enchantments creation, modified Binding Strength to come from the DoS of the enchanting test.</li>
+<li data-line="308" dir="auto">Created the “Enchantment Savant” talent:
+<blockquote dir="auto">
+<p>Enchantment Savant<br>
+The character is able to craft consistently strong enchantments.<br>
+Journeyman (Intelligence)<br>
+When the character crafts an enchantment, they can choose to use their Enchant skill level as the Binding Strength of the enchantment instead of the DoS of the Enchant test if the DoS would cause the Binding Strength to be below their Enchant skill level.  </p>
+</blockquote>
+</li>
+<li data-line="315" dir="auto">Capped number of upkeep refreshes to the BS of the enchantment</li>
+<li data-line="316" dir="auto">Added “In addition, the Water Breathing and Water Walking effects can be chosen, but the Become Etheral effect cannot.” to the Choose Constant Effects step</li>
+<li data-line="317" dir="auto">Added the following optional rule:
+<blockquote dir="auto">
+<p>Optional Rule - Cursed Constant Enchantments<br>
+Some groups may like the idea of Cursed Enchantments. If you’re using this optional rule, then the following Spell Effect can also be added to an enchantment:  </p>
+<p>Name: Curse<br>
+Rules: This enchantment cannot be disabled by its wearer. To remove the enchanted item, the wearer can test Willpower once per turn, successfully removing the item on a success.<br>
+The penalty for the Willpower test is determined by the spell level of the Curse:<br>
+1: +30 2: +20 3: +10 4: +0 5: -10 6: -20 7: -30<br>
+Cost: 5 x SL  </p>
+</blockquote>
+</li>
+<li data-line="328" dir="auto">Removed Magic Quality from Adamantium armor and shields</li>
+<li data-line="329" dir="auto">Changed the “Utilizing Untrained Weapons/Armor” section to read:
+<blockquote dir="auto">
+<p>Characters who use Weapons, Armor, or other equipment that they are not trained to use suffer the usual -20 penalty for using an untrained skill on any associated combat tests, movement tests in the case of armor, or any other tests that the GM deems appropriate. The GM may choose to alter or ignore this penalty if they feel the circumstances do not apply.</p>
+</blockquote>
+</li>
+<li data-line="333" dir="auto">Changed replenish to read:
+<blockquote dir="auto">
+<p>Target character within 1 meter regains [Spell Strength] MP which cannot exceed the final casting cost</p>
+</blockquote>
+  Made the same change to the spell effect.<br>
+</li>
+<li data-line="339" dir="auto">Changed Critical Success/Failure to allow double advantage, and added specification for tie:
+<blockquote dir="auto">
+<p>If one character critically succeeded, treat it as if they succeeded with more DoS than their opponent (if their opponent succeeded at all). They also gain an advantage. If one character rolls a critical failure, and their opponent passed, then their opponent counts as having critically succeeded. If one character critically succeeds and the other fails or one succeeds and one critically fails, then the character who succeeded gains two advantages, which can stack if applicable. If both sides roll a critical success or failure then no advantage is gained, and neither attack or defense resolves.</p>
+</blockquote>
+</li>
+<li data-line="343" dir="auto">Renamed Tempered Focus talent to Living Armory</li>
+<li data-line="344" dir="auto">Added Weapon Echo talent with Bladecaller as a prerequisite:
+<blockquote dir="auto">
+<p>Weapon Echo<br>
+The character has mastered the art of weaving a conjured weapone in with their attacks.<br>
+Expert (Willpower)<br>
+Requires Bladecaller<br>
+When the character casts a Conjure Weapon spell, they may choose to reduce the duration of the spell to 1 round, and allow the weapon to freely float above the ground in an unoccupied space they can see. When summoned in this way, the conjurer may make a single attack with the weapon on their turn (which still counts as one of the total number of attacks they can do each round) using Combat Style (Willpower) for its test. The first of these attacks can be made as a free action, but subsequent attacks with a weapon echo require 1 AP. Immediately before or after making this attack, the character can move the weapon their WpB meters in any direction.  </p>
+</blockquote>
+</li>
+<li data-line="352" dir="auto">Changed the rules for Seasoned Conjurer:
+<blockquote dir="auto">
+<p>When the character succeeds on a Conjuration test, they can choose to take a number of degrees of success that they rolled, or take a number equal to their Conjuration skill rank instead.</p>
+</blockquote>
+</li>
+<li data-line="356" dir="auto">Made Taskmaster talent allow the character to choose to use it (required to make Master of the Hordes change work)</li>
+<li data-line="357" dir="auto">Modified Master of the Hordes:
+<blockquote dir="auto">
+<p>The character may reduce the (X) required by each Mindlock trait affecting them by 1 (to a minimum of 0). This can apply to a maximum number of creatures summoned in this way is equal to the summoners WpB. A character may use this talent or Taskmaster on a summoned creature, but not both at once.</p>
+</blockquote>
+</li>
+<li data-line="361" dir="auto">Changed Forceful Impact to no longer be limited to weapons with the crushing quality.</li>
+<li data-line="362" dir="auto">Fixed “Both characters fail” in step 3 in attacking &amp; defending section. Was: “Nothing happens and the turn ends”. Changed to: “Neither attack nor defense resolves”</li>
+<li data-line="363" dir="auto">Added an alternate rule for Luck Point refreshing:
+<blockquote dir="auto">
+<p>Some groups may find refreshing Luck Points at the start of each session to be too frequent or stale. For such groups, this optional rule is recommended.<br>
+Rather than refreshing to full LP at the start of each session, characters start out after character creation with 1 LP. Then, Luck Points are only gained by earning them through significant character moments. These moments might include the following: adhering to a character’s Bond(s), character flaws, character personality traits, good planning, significantly positive interactions with any associated deities, achieving a character goal, Character Traits, Negative Character Traits or any other moments or interactions that the GM deems appopriate. GMs new to the system or their group should reward their players with LP often until they have a good idea on how they’re used in the system and by the players.  </p>
+</blockquote>
+</li>
+<li data-line="368" dir="auto">Updated the Force Movement special action to give the opponent the option to use Athletics instead of just the Combat Style test to oppose it.</li>
+<li data-line="369" dir="auto">Made a change so that LP cannot be spent to reroll Critical Failures. Luck Score, however, CAN be used to reroll Critical Failures.</li>
+<li data-line="370" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Modified Defensive Stance to read as follows:
+<blockquote dir="auto">
+<p>Defensive Stance<br>
+Using this action grants the character +10 on any defensive tests made until their next turn. If the character has made any attacks this round, this action cannot be taken. Additionally, taking this action reduces your Attack limit to 0 until your next turn.  </p>
+</blockquote>
+<ul>
+<li data-line="375" dir="auto">Also moved the delay turn action out of the list of delays as it was just a list of one since Defensive Stance is no longer a delay action</li>
+</ul>
+</li>
+<li data-line="376" dir="auto">Specified that soul trap is seen as a hostile action</li>
+<li data-line="377" dir="auto">Modified all instances of Counter Attack to read as “Counter-Attack” for consistency.</li>
+<li data-line="378" dir="auto">Modified Unnaturally Agile Talent: changed rank to Adept, then modified “This movement counts towards their total movement for the round.” to “This movement does not count toward their total movement for the round.”</li>
+<li data-line="379" dir="auto">Modified Thunder Charge from:
+<blockquote dir="auto">
+<p>The character can make an All Out Attack without the usual +20 bonus whenever he takes the dash action if his movement would carry him into melee range with someone he did not begin his turn within melee range of, and as long as he moves at least half of his base Speed towards the target in that turn. This All Out Attack only costs 1 AP instead of the usual 2.</p>
+</blockquote>
+  to:
+<blockquote dir="auto">
+<p>The character can make an All Out Attack using 1 AP, instead of the usual 2, whenever they take the Dash action. This is applicable only if their movement would bring them into melee range with someone they were not initially within melee range of at the start of their turn. Additionally, they must move at least half their base Speed toward the target during that turn.</p>
+</blockquote>
+</li>
+<li data-line="387" dir="auto">For crit success on Alchemy, changed from max target number as DoS to max target number plus one</li>
+<li data-line="388" dir="auto">For crit success on enchanting tests, changed from max target number as DoS to max target number plus one</li>
+<li data-line="389" dir="auto">Added ENC values to the food table</li>
+<li data-line="390" dir="auto">Specified that soul gems have ENC 0</li>
+<li data-line="391" dir="auto">Changed price of silver ammo from 20 to 26</li>
+<li data-line="392" dir="auto">Got rid of the idea of CrP, instead specifying what things can only be purchased with XP during character creation</li>
+<li data-line="393" dir="auto">Allowed a choice between XP and gold to the purchase of spells during character creation.</li>
+<li data-line="394" dir="auto">Removed the concept of CrP, just specifying what can’t be purchased with XP after character creation (currently, only spells)</li>
+<li data-line="395" dir="auto">Removed the optional elite advance step from the character creation process. Starting characters with EAs is generally a bad idea except for specialized high level adventures. This will be specified in the Elite Advancements chapter once it’s created during the Scroll Merge step.</li>
+<li data-line="396" dir="auto">Modified short rest to grant a number of Magicka Points determined by dropping the ones place from their Maximum MP. So, if a character's Maximum Magicka is 56, they recover 5 Magicka, rather than just IB.</li>
+<li data-line="397" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Changed the Bleeding(X) Condition:
+<blockquote dir="auto">
+<p><strong>Bleeding(X)</strong></p>
+<p>Reduce Wound Threshold by X. At the end of the character’s next turn, they take X damage (bypass AR/resistance); then X is reduced by 1. If X would be 0, the Bleeding condition is removed.</p>
+<p>X is capped at 10 minus the affected character’s Endurance Bonus. If the Bleeding(X) condition would be inflicted on a character that already has a Bleeding condition, the value of each is added together and replaces the current Bleeding condition.</p>
+</blockquote>
+<ul>
+<li data-line="405" dir="auto">Changed the red legion throw to inflict the Bleeding(1) condition instead of Bleeding(1d4+Material Modifier)</li>
+<li data-line="406" dir="auto">Changed Blood Lung to inflict Bleeding(1) instead of 1d4 damage.</li>
+</ul>
+</li>
+</ul></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/changelogs/3-v3-merge-changelog.html#3 - v3 Merge Changelog"><div class="tree-item-contents heading-link" heading-name="3 - v3 Merge Changelog"><span class="tree-item-title">3 - v3 Merge Changelog</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

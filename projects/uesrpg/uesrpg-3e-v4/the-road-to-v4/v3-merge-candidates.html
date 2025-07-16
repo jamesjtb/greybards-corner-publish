@@ -1,0 +1,335 @@
+<!DOCTYPE html> <html><head>
+		<title>v3 Merge Candidates</title>
+		<base href="../../../../">
+		<meta id="root-path" root-path="../../../../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Greybard's Corner - v3 Merge Candidates">
+		<meta property="og:title" content="v3 Merge Candidates">
+		<meta property="og:description" content="Greybard's Corner - v3 Merge Candidates">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="Greybard's Corner">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Enchanting"><p dir="auto">Enchanting</p></h1><div class="el-p"><p dir="auto">All Talents are pulled from the BB, as that is the “fixed” version of the v3 talents<br>
+|   |   |   |<br>
+|---|---|---|<br>
+|Change|Merge?|Why/Why Not?|<br>
+|In v3, a critical success gives a PC 1 LP which can exceed the maximum.  <br>In our version, the PC does not gain the LP.|No|Too rewarding on a success, too detrimental on a fail|<br>
+|v3 removes this paragraph to the end of the “Critical Successes &amp; Failures” section:  <br>”In combat, critical successes and failures have specific effects  <br>for attack and defense rolls that are further explained in the  <br>appropriate section.”|No|Giving this specification adds to New Player experience without any real downsides other than the extra paragraph in the chapter. No real reason to remove it IMO|<br>
+|v3 has a section in the “Critical Successes &amp; Failures” that deals with “Non Player Character Critcals” [sic].  <br>  <br><em>Note: fix this typo if we merge  <br>  <br>_This section has a table that specifies lucky numbers for NPCs based on CR.|Noish|I think a flat lucky numbers array for GMs is easier to keep track of. There’s no significant difference in “feeling” of gameplay to warrant the added complexity of basing it on CR. HOWEVER, we should probably specify what the NPC lucky numbers are here. If not a flat lucky numbers array, at least make it more general. I.e. 4 entries instead of the 8 or whatever.  <br>Also, we might just move this to the statblocks section/book and also put the creature’s lucky number right on their statblock.|<br>
+|Wound Threshold|Noish|I think we should consider adding optional rules for removing wound threshold, as hinted at in the BB. It’s a simple enough thing to add for those who prefer playing without WT. This appears in Core mechanics section &amp; Finishing touches section  <br>IF we do this, we should include the relevant talents in the optional rules section, and not the talent section to avoid bloat)|<br>
+|v3 adds rules for Linguistics, which determines what languages a character knows.|Yes|Consider specifying that this formula only applies during character creation. The character can choose to seek out additional languages, which is up to the GM to determine.  <br>Consider adding a GM check for exotic languages, as well as adding more exotic languages  <br>This appears in Core mechanics section &amp; Finishing touches section|<br>
+|v3 rids us of the ability to work up to 4ap|Yes|Point: Nothing wrong with current rules, maybe specify that most characters will start with 3AP except in very high CrP starts  <br>  <br>Counterpoint:  <br>This appears in Core mechanics section &amp; Finishing touches section  <br>Review all talents and purge anything to do with AP calculation|<br>
+|v3 adds perfect hit to the stamina spending options, which is basically ranged power attack|Yesish|Specify in power attack that it can be done with ranged weapons, rather than adding a new entry in the SP options.|<br>
+|v3 moves bash to stamina spending and makes it a free action (no AP)|No|We take away an advantage option, and you can technically use heroic action to use an SP for it anyway.|<br>
+|Skill Level Maximum|Yesish|The concept is good, but the CrP/XP amounts need to be changed. Appears in both the getting started and the Spend CrP sections|<br>
+|v3 takes away spending XP on specializations|No|Dumb|<br>
+|v3 adds learning a ritual|Yes|Duh|<br>
+|v3 removes names for talents and uses talent levels|No (ish)|It’s a core flavor element - but adding a number in parenthesis might be worth it for reference.|<br>
+|v3 has a different beast tongue trait for bosmer|No|Ours is the latest version of Beast Tongue|<br>
+|v3 changes voice of the emperor|No|v3 version might have larger balance implications, and achieves basically the same thing. Though v3 might result in interesting character choices|<br>
+|v3 adds tough trait to orcs|No|Orcs are strong as it is, no reason to add an additional trait when other races are less powerful. Thematically makes sense, but no mechanical reason for it.|<br>
+|v3 changes ancestor guardian.|No, nerf ours|If we take our version, consider nerfing it.  <br>V4.a3 proposed version would have a ghost last 30 minutes, but disperse after a combat if it participates in said combat.  <br>v3 merged version would reduce the sactuary strength to 1 for 3 rounds, instead of 3 DoS for 3 rounds.|<br>
+|v3 rewords Moonshadow power|No|original wording is fine.|<br>
+|v3 changes untrained penalty to -10 from -20|No|A -10 bonus is not enough to incentivize players to purchase low level skill ranks. Also, for the most part, being untrained in something SHOULD mean you’re not very good at it.  <br>Maybe optional rule for more “casual” games|<br>
+|v3 moves combat specializations to the skills chapter|Yes|During combat, it is not likely that this section will need to be referenced. Better fits the Skills section.|<br>
+|BB Talents Skillful alternate requirement||So far the discussion is that it muddies the waters for players, but the skill requirements is an interesting mechanic.  <br>Needs further discussion.|<br>
+|Talent Levels|No (ish)|Use the numbers in parenthesis|<br>
+|Talent - Combat senses||Consider 2 x PcB + 2 rather than 3x PcB. Our version is a bit underpowered, v3 is too overpowered. Should do some IR math for different possible configurations and compare to the result of this talent.|<br>
+|AP refreshing||Further discussion NEEDED|<br>
+|Talent - Defender||If we use v3 AP refresh, use BB version|<br>
+|Talent - BB Fearsome removes intimidating as requirement|Yes|The two are unrelated|<br>
+|BB Introduces a new talent, Assassinate|Yes|Gives the player an option to advance their sneak attack damage|<br>
+|BB Sneak attack is at Apprentice, rather than Journeyman|Yes|SA is not powerful enough for Journeyman|<br>
+|Shadow Strike||Needs discussion.  <br>Our version requires melee attacks to kill to use the talent  <br>BB version requires melee attacks to forgo advantage to use the talent.  <br>Additionally, BB version is at Expert lvl rather than master.|<br>
+|v3 removes the Perfect Hit talent|No, BUT →|Replace our wording: “Master (Perception): The character adds their Perception bonus to the damage dealt by Precision Strike attacks (either melee or ranged).”  <br>With: “Expert (Perception): The character can use their Perception Bonus for the purposes of determining Splitting, Slashing, or Crushing damage in place of their Strength bonus.”|<br>
+|Master Alchemist Talent Goes from Master rank in our version to expert in BB|No, BUT →|If it’s not strong enough, then we should make it stronger. It’s called “Master”|<br>
+|BB Grandmaster talent allows grandmaster spellcasting without penalty|Yes|It’s a common complaint that lvl 7 spells aren’t worth it. While it might not completely solve the issue, it gets us closer.|<br>
+|BB Untouchable Talent: “The character can, before making a shock test, choose to expend a luck point to automatically succeed on the test.”  <br>Our Untouchable Talent: “The character replaces their Wound Threshold with three times their current Luck bonus.”|No|If we do a WT optional rule, then consider providing the BB version as alternative|<br>
+|BB Interrogator talent decreases level from Journeyman to Apprentice|?|My thought is that it’s really not strong enough for Journeyman. It is already restricted to interrogations. So maybe we do merge this one.|<br>
+|BB Prediction is OP as fuck, next (3x Intelligence for IR calculation AND decreased level)|HELL NO|Dumb|<br>
+|BB Tactician lowers its rank to Adept from Expert|Naw bro|See above|<br>
+|BB Hard Target Talent Removes the requirement for moving half speed|No?|There’s a thematic element that the half move speed enables, and the restriction itself isn’t all that steep.|<br>
+|BB Unnaturally Agile brings talent level from Master to Expert|Yes|Having it at expert level gives the talent room to grow. Also AOE is relatively strong in this system, more AOE evade access makes sense.|<br>
+|BB Stubborn adds the restriction of rerolling panic tests only once per test|Yes|BB version seems like RAI|<br>
+|BB Fearless also adds the restriction of once per test for horror. Also has been brought to adept from master|Yesish|I understand wanting to reduce the level, but I think Expert would be more appropriate.|<br>
+|Our Wall of Steel talent reduces weight class by one step, unless superior  <br>BB increases AR/BR by 1 and ignores speed penalty from any armor word|Yes|In our version, the inability to combine the talent with superior really sucks. Your talent just turns off if you’re wearing good armor. The BB version gives AR instead (good, but not crazy op) and gives an option for getting away from the armor speed penalty.|<br>
+|BB Big words is reduced to Apprentice from Journeyman|No?|Why reduce? Charlatan, the very next talent, remains Journeyman. Seems arbitrary.|<br>
+|BB into the fire removes the requirement for “leading the group”.|||<br>
+|BB Adds Bladecaller talent|fuck yes|it’s a conjuration talent, much needed. Plus is just a good talent.|<br>
+|BB Adds Weapon Echo talent|yes(ish)|It is pretty strong to attack as a free action, but your attacks are still limited. basically just frees up one or two AP for defence for conjurers. Potentially change it by saying  <br>“Once per turn, you may spend a free action to direct one of these summoned weapons to attack. You may spend additional AP to repeat this attack with that or any other weapons summoned this way. These attacks count toward the total number of attacks per round.”|<br>
+|Big changes to many talents here. Not exactly merging from BB, but taking the opportunity now to fix some major issues with spellcasting talents.  <br>1 - Reduce Depth of understanding to Expert and modify it to add the Power Well Trait (X), where X = IB * 5  <br>2 - Force of Will is reduced to expert level, and renamed to “Magicka Cycling” ;)  <br>3 - Master of Magicka’s requirements are modified to either Force of Will OR Depth of Understanding  <br>4 - Any mutual exclusivity to do with the above is removed.|Yes, but not a merge|This is an attempt to balance these talents rather than simply merge them from the BB. We’re not happy with either version, and just took the opportunity to fix the glaring issues with the talents.  <br>  <br>We seem to have forgotten to record this: is depth of understanding dropping the “cannot utilize spell restraint” bit to make this work?|<br>
+|BB adds living armor|No|Too powerful, and conjured armor is already pretty powerful. Not much of a need for talents for it, as nice as it would be flavor-wise|<br>
+|Bearded Warrior|No, but|Rather than moving 1m closer, they can yank the target 1m in any direction that doesn’t cause their distance from you to increase.|<br>
+|Beast of Steel|No, but|remove +10 Persuade (Str)|<br>
+|Blademaster|No||<br>
+|Bruiser|Yes, and|Change the lost stamina requirement to successful DAMAGE, reword If applicable to if chosen|<br>
+|Firing Line|Yes|(bb version)|<br>
+|Halberdier|No, but|change to: The character can choose to replace his halberd’s Splitting qual-  <br>ity with the Crushing quality instead. Additionally, change range to 3m. Additionally, you can spend 1SP to force the rider of a mount to roll Ride(+0) or fall off of their mount, becoming prone.  <br>_needs flavor text update</em>|<br>
+|Hammerblow|No, but|Reword to:  <br>When the character lands a hit with a warhammer or maul  <br>he can choose to either cause his target to lose one Stamina  <br>point, or make an all-out-attack to force the target to make an Endurance (+0) test. If the target fails  <br>this test, he gains the Dazed condition. The target may attempt  <br>one Endurance (+10) test on his first turn each round to remove the  <br>condition.|<br>
+|Knife Fighter|No, but|Add to the beginning “When you use penetrate armor, add a d4 damage”|<br>
+|Monster Hunter|No, but|Add support for the remove WT optional rule|<br>
+|Viper’s Eye|Yes||<br>
+|Point Blank|Yes, and|changing the advantage range to the melee range of target|<br>
+|Power Draw|No||<br>
+|Red Legion Throw|No, but|Remove the concept of “Speared”, and just explain what the concept does. Keep the first sentence|<br>
+|Simple, Yet Effective|Yes||<br>
+|Staff Master|No, but|remove precision strikes sentence|<br>
+|Traits — added Bleeding (x)|Yes|Just forgot to add it|<br>
+|Telekinesis|Yes|It’s a new cool thing that’s not OP|<br>
+|Diseases|yes, but|only one stage, except for magical diseases.  <br>Add the Blight Disease, and consider adding variants. “Magical Diseases” are the only ones that progress.  <br>And then of course, vampiric and lycanthropic diseases. At stage, curing is no longer simple. GM defined for curing.|<br>
+|Some general changes in he → they pronouns, that sort of thing|Yes, but|Let’s take care of this in the final proofreading pass, that we we take care of it all at once.|<br>
+|Changes to initiative (combat overview section of ch. 5)|Yes, but|We’ve already discussed using v3 intiative as an optional rule|<br>
+|v3 removes the verbiage “and can be taken when a character has gained Advantage in combat.” in the Special Actions section.|No, but|Add the text in bold: “and can be taken when a character has gained Advantage in combat. <strong>or as the listed action</strong>”.|<br>
+|v3 adds a clarifying sentence to the Coup de Grace Attack action: “For Unarmed Coup de Grâce see Grappling rules”|Yes|It’s good to point toward the grappling section for unarmed|<br>
+|v3 adds the ability to use the Aim secondary action for spellcasting|Yes, but|restrict it to just spells of the bolt form.|<br>
+|v3 extends the clarification on Attack of opportunity following the 2 attack per turn max.|Yes, but|Not as verbose. We can just say “still following the 2 attack per round rule” or something of the like.|<br>
+|v3 clarifies that attacks of opportunity can only be taken if they can see their target|Yes|It’s a good clarification.|<br>
+|v3 combines the Block Parry, and Evade sections in the combat chapter to one section since they’re all being deferred to the Attack &amp; Defending section anyway|Yes|Good way to save space|<br>
+|v3 removes the bash special action|No|See first instance of bash|<br>
+|v3 Blind opponent is changed in three ways:  <br>1) More verbose wording in the first sentence without changing meaning or making any clarifications  <br>2) The target must be within SB meters of the opponent  <br>3) A character wearing a full helm automatically succeeds|No|1) It doesn’t really add much, though the v3 description does benefit from more generic pronouns (which we will do a pass for at a later stage  <br>2) It feels so arbitrary. I understand what they’re going for, but there’s got to be a better solution; but honestly, the bit about “reasonably have access” leaves it to GM fiat, and sometimes that’s just the right solution.  <br>3) … so full helms don’t have eye holes? Nah bro, leave it as is.|<br>
+|v3 combines the take and disarm weapon actions|Yesish?|I think it benefits from being combined, but the two scenarios need to be better separated for the purpose of reading comprehension.|<br>
+|v3 adds the Blinded condition to the list of resistible conditions in the resist action|Yes|Offering a way out of blindness is probably a good call.|<br>
+|v3 adds the Feint Special Action|Yes|It’s a decent new option, and seems pretty balanced|<br>
+|v3 untrained combat style uses the rules for untrained skills on combat styles (Attacking &amp; Defending Step 1)|No|make note of optional rule here|<br>
+|v3 defines three attack types: Melee Weapon Attacks, Ranged Weapon Attacks, and Cast Magic Attacks|Yes|It’s good to specify weapon attacks when we’ve adding the magic attack type. And with the currently proposed rules for Spell attacks, this will be important|<br>
+|v3 adds clarification for counter-attack if both characters pass their tests (Attacking &amp; Defending Step 3)|Yes|There is a general “best practice” that tied rolls result it a maintaining of the status quo. The status quo, in this case, is no effect.|<br>
+|In Resolve Attack &amp; Advantage, will need an optional rule specifier for non wound threshold rules in Attacking &amp; Defending|N/A|N/A|<br>
+|In v3, Advantages is it’s own section|No|I see the purpose, for ease of reference; but with the accompanying reference with our version it will not be necessary. The Advantages section, technically speaking, is still part of step 4: in the Attacking &amp; Defending section.|<br>
+|v3 adds forceful impact as an advantage|yes|this was previously discussed; this is our replacement for the v2 errata damage rules. However, we remove the crushing trait stipulation.|<br>
+|v3 adds Wounding Cleave as an advantage|?|?|<br>
+|v3 adds Fortunate Hit as an advantage|?|?|<br>
+|v3 removes Press Advantage advantage.|||<br>
+|v3 removes Overextend advantage.|||<br>
+|v3 removes Special Action advantage.|||<br>
+|v3 adds a Critical Success/Failure section to that Attacking &amp; Defending section:  <br>If one character critically succeeded, treat it as if they succeeded  <br>with more degrees than their opponent (if their opponent suc-  <br>ceeded at all). They also gain an advantage. If one character  <br>rolls a critical failure, and their opponent passed, then their  <br>opponent counts as having critically succeeded. If both sides  <br>roll a critical success, then nothing happens.  <br>An attack made with a critical success causes a wound to the  <br>hit location of the attack.|Yes, but|use the last sentence regarding wounds in a wound optional rule clarification|<br>
+|Under Improvised weaponry, the -10/-20 untrained penalty is referenced||Just noting for optional rule referencing|<br>
+|Unusual Combat Scenarios section is moved as a subsection of Melee Combat|Uh, no|Unusual combat scenarios is not melee combat. Wut?|<br>
+|Unarmed coup de grace causes the target to lose StB SP vs 1SP|||<br>
+|v3 removes the Item Durability rules|Yes|This is being replaced by the Forceful Impact special action|<br>
+|No rules for Holding your Breath in v3|no|Having the rule is better than not having it|<br>
+|Note: Second holding your breath should be “Swinging or Jumping”|!|!|<br>
+|Not v3 change: Under Damage Types, use a colon to punctuate the last sentence|||<br>
+|v3 resets errata change for Magic Damage types (Damage Types → Magic Damage)|||<br>
+|The “Death” section changes ‘pass an Endurance test each round” to “pass an endurance test on their turn”.|Yes|v3’s wording is more ambiguous and is compatible with the optional initiative rules.|<br>
+|Optional rule support: Wounds. v3 wound rules trigger on a critical success, rather than Wound Threshold|optional rule|support for the v3 wound optional rule|<br>
+|Optional rule support: In body wound bullet point, add an optional rule blurb for the alternate (v3) refresh rules|optional rule||<br>
+|v3 moves the magic damage wound effect to Magicka points instead of losing a stamina point|?||<br>
+|passive effects, under wounds - v3 removes the -2 penalty to initiative rolls|no|wounds should hurt|<br>
+|passive effects, under wounds - v3 changes “the character has 30 seconds (5 rounds) before they drop to 0 HP from blood loss” to “The character has until the end of combat”.|no|What happens if the wound occurs out of combat? There’s no reason that I see to abstract the ruile.|<br>
+|Removing the passive effects with first aid requires 1 turn (no AP) in our version, but v3 only takes a single AP.|no|Imagine being able to do a full first aid check and still make two attacks (or even one and defense) all in the same round. Taking the turn rather than an AP is a commitment, but still allows for defense by the character administering the first aid.|<br>
+|v3 adds the following to “Treating Wounds”: Treating a wound related to the Crippled Condition can only be done once per long rest. If this test results in a dramatic failure, the limb immediately becomes Maimed.|yes|I like it — I feel like being able to go up to full health if you’re dealing with multiple cripplings should take a while to get over.|<br>
+|Reminder: We’re going to want to change Fatigue to happen when you go below 0 SP.|n/a||<br>
+|Frenzied condition first bullet point in v3 specifies separately that you may only make all out attacks, rather than smashing them into the same sentence|yes|good clarification|<br>
+|Frenzied bullet point 3 Wound Threshold optional rules support|optional rule||<br>
+|For organ damage, rather than reducing SP max and WT by 1, v3 has them healing damaging at half speed and increasing the passive wound penalty for all tests to -30|noish (optional rule)|We do need to account for the no WT optional rule. I propose we replace the WT increase by 1 with the -30 penalty from v3 for the no WT optional rule|<br>
+|v3 stunned references our optional refresh rules|optional rule||<br>
+|in v3, “snapping out” of fear always happens at the end of their turn|yes|I like it, it makes it so you still suffer the penalty for the fear test for your whole turn. Though I might reword the individual instances of fear rather than the general rule to add to specifity.|<br>
+|v3 takes down the 1d10 falling damage to 1d8.|nah|d10 worked|<br>
+|v3 adds Holding your breath section to Movement &amp; Size rather than unusual combat scenarios|no|I think we should consider a different contextualization for the “combat” chapter.|<br>
+|Not v3 merge related: Fix “Inspire heroism” to read:  <br>”Once per round as a free action, the character can make a command test to inspire an ally who can perceive them. When inspired, the ally gains +10 to their next combat test.”|←——||<br>
+|—————————-CHAPTER 6—————————-|————-|————————-|<br>
+|Spellcasting &gt; Effect Durations changed.  <br>  <br>v4.a2.0: Effect durations are measured in rounds, and end immediately after the initiative step on which they took effect. For example, if an Orc is stunned for 2 rounds on his turn, he remains stunned until right after the end of his turn 2 rounds later (assuming his turn takes place at the same initiative “step” as it did originally).  <br>  <br>v3: Effects that last for one or more rounds last until the start of the caster’s next turn (after they were triggered, if applicable), and then an additional amount of rounds equal to their listed duration. For example, a fire storm spell deals its damage when first cast, then at the start of the caster’s turn, they can choose to upkeep the spell or not. If they choose to upkeep it, it deals the damage again immediately.|No, but|After discussion in chat, the general consensus seems to be to keep the v2 version but make a better example. Let’s keep an eye on this one during playtesting|<br>
+|Casting Spells &gt; “Step 2: Casting test in v3” expands on how to determine your character’s effective spell level|Yes|Missing from v2; but v3’s version should be reworded.|<br>
+|v3 adds the following to “Step 3: Resolve the Spell”: “Any spell that requires a test of the target(s) cannot be willingly failed.”|No|After discussion in chat, the idea was brought up that absorbing magicka can be abused; but a universal rule is overkill for that.|<br>
+|Seems like v3 removes the section “Resolving opposing spell effects”.|No|Not sure why you wouldn’t want a section that helps resolve this.|<br>
+|v3 adds the Mage Guard spell attribute||Depends on how it’s used|<br>
+|v3 changes R/M Attack (range) to R/M/Direct Attack (range)|No, but|We have in our ideas list to “consider splitting out all of the spell attributes”, rather than combining them (like R/M/Direct) to aid in the differentiation between spell attributes.|<br>
+|v3 adds the Mindlock(X) spell attribute|Yes|This is from the scroll of oblivion|<br>
+|—————————SPELLS————————|—————|———————————|<br>
+|ALTERATION|———-|————|<br>
+|Armor adds the attribute “Mage Guard(+WpB to AR)||Kneejerk reaction is that +WpB is WAY too high, even if you’re forced to spend more magic re: Mage Guard attribute. Just at level 1, this spell would give most mages access to 5-6 AR for a minute with a LEVEL 1 SPELL. Then, it increases by 1 EACH spell level.  <br>I get the idea, but this is way, way too much. Let’s talk about alternatives.|<br>
+|Burden costs in v3 are modified|Yes||<br>
+|Feather cost is reduced by 1|Yes||<br>
+|Jump cost is reduced by 1 for all levels|Yes||<br>
+|Levitate cost is reduced by 1 for all levels|Yes||<br>
+|Lock cost is increased by 1 for all levels|Yes||<br>
+|Magic Armor cost is reduced by 1 for all levels, and is given the Mage Guard(+WpB to Magic AR) attribute|Yes just to cost|See Armor above, but like  <br>WORSE  <br>WTF|<br>
+|Magic Shield cost is increased by 1 for all leves  <br>Mage Guard here as well, +WpB to bonus HP but loses free upkeep|Yes to cost|This feels a little more balanced, since it can be lost and you lose the free upkeep when “overloading”. I don’t mind this one so much.|<br>
+|Open cost is increased by 1 for all levels|Yes||<br>
+|Repair cost is increased by 1 for all levels|Yes||<br>
+|Shield cost is increased by 1 for all levels  <br>Gains mage guard, same as Magic Shield but for physical damage|Yes to cost|Same feeling as with Magic Shield|<br>
+|Slowfall cost is reduced by 1 for all levels|Yes||<br>
+|[Type] Armor Cost is reduced by 1 for all levels  <br>Gains the Armor mage guard formula for [Type] damage.|Yes to cost|Same feeling as with other armor spells — it’s just too, too much|<br>
+|[Type] Shield cost is reduced by 1 for all levels  <br>Gains the Shield mage guard formula for [Type] damage|Yes to cost|Same feeling as with other shield spells|<br>
+|Water breathing cost is reduced by 1 for all levels|Yes|Let’s add upkeep here as well. ADD TO EFFECT AS WELL|<br>
+|Water walking cost is reduced by 1 for all levels|Yes|Let’s add upkeep here as well. ADD TO EFFECT AS WELL|<br>
+|Ward gains Overload(+WpB to BR)  <br>Cost is reduced by 1 for all levels  <br>v3 makes ward have BR instead of flat damage reduction|Yes to cost and base mechanic|COME THE FUCK ON  <br>YOU DON’T HAVE TO USE WpB 1:1 FOR EVERYTHING  <br>+WpB is just too damn high for BR/AR in addition to the baseline levels|<br>
+|CONJURATION|—————|———————-|<br>
+|in v3 Summon Daedra, hunger’s spell strength is changed from 2 to 1|Yes||<br>
+|v3 Sunder binding adds Upkeep, Direct traits|Yes to direct, no to upkeep||<br>
+|v3 Sunder binding description changed from:  <br>The caster picks a target  <br><strong>with the Summoned trait</strong> that must make  <br>an opposed Willpower Test vs the caster with a [Spell Strength]  <br>modifier or be sent back to the place from whence it came.  <br>to: The caster picks a target  <br><strong>within 50m that has the Summoned  <br>trait  <br></strong>that must make an opposed Willpower Test vs the caster  <br>with a [Spell Strength] modifier or be sent back to the place  <br>from whence it came.|Yes|specifying range is good|<br>
+|v3 Conjure armor spell costs have increased relatively significantly|||<br>
+|v3 conjure weapon switches from created daedric weapons with Inferior/common/superior quality to having a [Spell str] damage modifier.||I don’t see a problem that is being resolved by the v3 change. The scroll version of the spell is pretty straightforward and I don’t see any particular issues. If the spell’s conjured weapon is op, then so are the weapon qualities; and I don’t think they are.|<br>
+|DESTRUCTION|—————|——————————|<br>
+|v3 changes chain lightning from Direct to R Attack (100m)|Yes|Chain lightning being direct was always a terrible idea|<br>
+|Chain lightning cost is increased significantly for all levels|Yes|Damage output for CL is massive, increased cost makes sense.|<br>
+|v3 Drain [Type] is changed from a R attack to a Direct attack|Yes||<br>
+|v3 Drain [Type] cost is increased significantly for all levels|||<br>
+|v3 Drain [Type] flavor text has changed|No|I like ours better|<br>
+|v3 Drain Magicka cost increased by 1 for all levels|||<br>
+|v3 Fatigue cost increased by 1 for all levels|||<br>
+|v3 Sunbeam cost increased for all levels|||<br>
+|v3 [Type] Ball cost increased for all levels|||<br>
+|v3 [Type] bite cost increased for all levels|||<br>
+|v3 [Type] bold cost increased for all levels|||<br>
+|v3 [Type] Cloak cost increased for all levels|||<br>
+|v3 [Type] Cone gains the R attack attribute|No||<br>
+|v3 [Type] Cone cost increased for all levels|||<br>
+|v3 [Type] Rune cost increased for all levels|||<br>
+|v3 [Type] Storm cost increased for all levels|||<br>
+|v3 Weakness to [Type] cost increased by one for all levels|||<br>
+|v3 weakness to magic cost increased for all levels|||<br>
+|ILLUSION|—————|——————————|<br>
+|v3 Blind is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Blind Cost increased by one for all levels|||<br>
+|v3 Calm is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Calm cost increased by one for all levels|||<br>
+|v3 Chameleon cost is reduced by one for all levels|||<br>
+|v3 Charm is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Charm cost increased by 1 for all levels|||<br>
+|v3 Courage cost increased by one for all levels|||<br>
+|v3 Frenzy is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Frenzy cost increased by one for all levels|||<br>
+|v3 Horror is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Horror cost increased significantly for all levels|||<br>
+|v3 Invisibility cost is decreased by 1|||<br>
+|v3 Light cost decreased by 1 for all levels|||<br>
+|v3 Muffle cost decreased by 1 for all levels|||<br>
+|v3 Night Eye cost decreased by one for all levels|||<br>
+|v3 Panic is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Panic cost increased by 1 for all levels|||<br>
+|v3 Paralyze is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Paralyze cost increased by one for all levels|||<br>
+|v3 Sanctuary cost decreased by 1 for all levels|||<br>
+|v3 Silence is changed from “Direct” to “Direct Attack”|Yes||<br>
+|v3 Silence cost increased by one for all levels|||<br>
+|MYSTICISM|—————|——————————|<br>
+|v3 Absorb Life cost increased by one for all levels|||<br>
+|v3 Absorb Magicka Direct changes to Direct Attack and loses the Overload attribute|Yes||<br>
+|v3 Absorb Magicka - all spell levels are removed but level 4, but level 4 is given the cost and magicka loss of level 7|No||<br>
+|v3 Detect [Type] cost reduced by 1 for all levels|||<br>
+|v3 Dispel Cost reduced by 1 for all levels|||<br>
+|v3 Ethereal form cost reduced by 1|||<br>
+|v3 Mark cost is decreased by 1|||<br>
+|v3 Mark maximum is changed from  <br>&gt; Use common sense when deciding how many different marks  <br>a character can keep track of at once.  <br>to  <br>&gt; The amount of marks a character can keep track of is equal to  <br>their Intelligence Bonus.|Yes|For some things, GM fiat makes sense; but here, it doesn’t feel like there’s any context to help the GM make this decision. WpB feels right, as for most casters this will range from 3-5; which seems reasonable.|<br>
+|v3 Recall cost is reduced by 1|||<br>
+|v3 reflect cost is reduced by 1 for all levels|||<br>
+|v3 Soul trap cost is increased by 3|||<br>
+|v3 Spell Absorption cost is reduced by 1 for all levels|||<br>
+|v3 Telekinesis cost reduced by 1 for all levels|||<br>
+|v3 Telepathy cost reduced by 1 for all levels|||<br>
+|RESTORATION|——————|———————————|<br>
+|v3 Cure Paralysis cost increased by 1|||<br>
+|v3 Curing Disease lvl 4 cost reduced by 1|||<br>
+|v3 Fortify spell costs increased by 1|||<br>
+|v3 heal ally spell costs increased by 1|||<br>
+|v3 healing touch spell costs increased by 1|||<br>
+|v3 heal spell costs decreased by 1|||<br>
+|v3 rejuvinate spell cost increased by 6|||<br>
+|v3 replenish spell costs increased by 1|||<br>
+|v3 Resistance to Type cost decreased by 1|||<br>
+|v3 Resistance to Magic cost decreased by 1|||<br>
+|v3 Stabilize cost increased by 1|||<br>
+|v3 Turn Undead costs increased by 1|||<br>
+|Ward gains Overload(+WpB to BR)  <br>Cost is reduced by 1 for all levels  <br>v3 makes ward have BR instead of flat damage reduction|Yes to cost and base mechanic|COME THE FUCK ON  <br>YOU DON’T HAVE TO USE WpB 1:1 FOR EVERYTHING  <br>+WpB is just too damn high for BR/AR in addition to the baseline levels|<br>
+|RITUALS are added in v3|YES||<br>
+|pg. 104 minor effects seem to have been cut off, if not check out v3’s they seem to have expanded.|||<br>
+|ALCHEMY ——————————-|——————|———————————————-|<br>
+|v3 renames the “Toxins” subsection of poisons to “Non Damaging Poisons”|||<br>
+|v3 changes the reference to the “[Toxin] tag” to read “the Toxin attribute”||Depends on if any changes were made to spell effect keywords|<br>
+|————-Ch. 7 ————-|||<br>
+|v3 big three removes the examples|yes|I actually think less is more in this case. The examples read out more like word problems than further explanations to me.|<br>
+|We have 3 potential versions of Splitting:  <br>v2: Weapons with this quality can deal savage wounds when properly brought to bear. They deal bonus damage equal to the wielder’s Strength bonus (or X, if another value is given), but only if the initial damage result causes the target to lose 1 or more HP.  <br>v3: …but only if the DoS of the attack are higher than the AR value of the hit location.  <br>BB: If the initial damage result causes the target to lose 1 or more HP, they inflict the Bleeding Condition equal to the wielder's Strength Bonus (or X, if another value is given). If the target is immune to Bleeding, the weapon counts as Crushing for the purpose of choosing the Forceful Impact Advantage.|no (keep our version)|While it could be argued that v2 Splitting is too strong, I’m of the opinion that BB adds too much additional book-keeping to the combat flow and v3 is too weak.|<br>
+|v3 refers to Bash as an action in the Concussive weapon quality|no|we’re keeping our version of bash, so no need to take this|<br>
+|v3 specifies that damaged quality does not stack, but ours does. v3 Damaged quality also doesn’t specify that natural weapons cannot be damaged|no|Our version of damaged is something that is already modified from v2 and is likely the final v4 version|<br>
+|v3 adds an addendum to Focus: “The weapon does not increase the range of any spell, due to it’s reach”|Yes, but|It’s a good clarification, but the wording and grammar is horrible and should be fixed to read “The weapon does not increase the range of any spell as a result of its reach”|<br>
+|v3 adds the “Arcane” weapon quality, which gives the item the Focus quality as well as DOUBLING … doubling the number of… charges……..|NO|This is likely a result of v3 enchanting having fewer charges than v3 enchanting overall; we definitely, definitely do not want to be doubling our charges.|<br>
+|v3 equipment Enchant Lvl changes across the board in v3|no|v2 EL is the one compatible with our Enchanting version|<br>
+|v3 Dwemer weapon material Price mod drops from 6.0 x price to 4.0 x price and gains +1 ENC|no?|this feels kind of arbitrary. Not sure what the motive is on this one.|<br>
+|v3 Orichalcum Price Mod drops for 4.0 x to 3.0 x|no?|see above.|<br>
+|v3 Runed special melee weapon quality adds the following text: “Only found among Dawnguard or specialized Skyrim blacksmiths”|no|This is a lore tidbit that I’m not sure serves any purpose. There are a lot of regional materials and qualities throughout the book, and restricting things based on lore should be up to GM choice|<br>
+|v3 moves Throwing Star/Dart to a thrown weapons section|no|I think we added ours at some point.|<br>
+|v3 Dwemer ranged material has the same changes as the melee material|no|see the melee material|<br>
+|v3 Orichalcum ranged material has the same changes as the melee material|no|see the melee material|<br>
+|v3 Dwemer and Orichalcum Ammunition materials also see these changes|no|^|<br>
+|v3 removes the Thrown Ranged Weapons entry, likely because they don’t have the throwing stars|no|we have throwing stars|<br>
+|Don’t forget to fix the arrow types as we’ve discussed.|||<br>
+|v3 adds a thrown weapons section|no|this is just a bunch of repeated equipment|<br>
+|v3 Damaged armor quality is changed|no|Ours is already something we’ve discussed|<br>
+|v3 Armored spellcasting penalties are added in the Weight classes section|no|already discussed|<br>
+|v3 adds reinforced clothing/robes|no|already discussed, and is part of the Armored spellcasting penalties|<br>
+|v3 moves the Armor &amp; shield quality section and the Shields section|no|v2 version is a logical placement|<br>
+|v3 adds the arcane focus special armor quality|no|this is part of the armored spellcasting penalties|<br>
+|Not sure if there are any changes to v3 armor equipment lists, but frankly I don’t think it matters. the current version is pretty sufficient and I don’t see any major changes in the v3 version|||<br>
+|v3 seems to have removed quite a few items|||<br>
+|v3 Alchemist Fee table goes up to 7+ — or ours is just cut off|yes|ours needs to cover all levels|<br>
+|———— Appendix|||<br>
+|SPELL ATTRIBUTES|||<br>
+|v3 adds the toxin tag|yes|I think we forgot to add it here|<br>
+|v3 adds the mindlock attribute|yes||<br>
+|v3 spells out Ranged and Melee in the R/M Attack (range) attribute|yes, but|It’s good for legibility but we’re also splitting these out|<br>
+|v3 adds Direct Attack with the text: Spell counts as a Attack for the purposes  <br>of the attack per round limit, as well as requires a primary  <br>action to cast.  <br><strong>These kinds of spells cannot do damage.</strong>|yes, but|we also need to add this description to the attirbutes in ch. 6, if they’re not already there|<br>
+|v3 adds the mage guard attribute|yes, and|take the changes to mage guard from ch. 6|<br>
+|SPELL FORMS|||<br>
+|v3 Decreases the self form cost to 1|||<br>
+|v3 increases Touch form cost to 1 from 0|||<br>
+|v3 increase Target form cost to 4 from 3|||<br>
+|v3 adds the following text to the Target description: If this  <br>spell would alter the the Targets mind, or harm them in any  <br>way, this form becomes a Direct Attack.|yes|This feels like a good call. Aggressive spells should take an attack|<br>
+|v3 Chain form is changed from Direct to R Attack (50m)|yes||<br>
+|v3 Cloak form cost is decreased from 5 to 4|||<br>
+|v3 Pulse form cost decreased from 5 + Z to 4 + Z|||<br>
+|v3 Adds the Bind form|yes|this comes from conjuration|<br>
+|SPELL EFFECTS|||<br>
+|Alteration|||<br>
+|v3 Elemental Armor gains the Mage Guard attribute|yes||<br>
+|v3 Magic Armor adds mage guard tag|yes||<br>
+|v3 Amor adds mage guard tag|yes||<br>
+|v3 Physical Shield text is changed to accommodate Mage Guard:  <br>Affected target gains SL temporary bonus HP against physical damage for 1 round. Any damage the caster takes reduces this HP first.  <br>This bonus HP can exceed his HP max, and if any remains at the end of 1 round then the spell is free to upkeep (the bonus HP refreshes entirely), unless the Caster decides to use Mage Guard, in which case the spell still costs MP to upkeep. If all of the bonus HP is lost by the end of the round then the spell cannot be refreshed via upkeep and must be cast again.|||<br>
+|v3 Magic Shield and Elemental shield have the same accommodations for mage guard|||<br>
+|v3 adds ward to the alteration spell effects|yes|seems like an oversight (or could be cut off in our table (actually it’s included on the page after conjuration, just a formatting bug|<br>
+|v3 adds conjuration school (doesn’t seem to be included in the scroll either)|yes||<br>
+|Destruction|||<br>
+|v3 Drain [Characteristic] moves the “choose character at purchase” text to the effect column|no|seems silly. It’s a rule, keep it in the rules section|<br>
+|v3 Drain [Characteristic] adds a willpower test to resist the effect|no|v3 doesn’t even add that requirement to the spell. The test would make more sense if it were a Direct Attack.|<br>
+|v3 Drain [Characteristic] costs is increased to 8 x SL|yes|seems like a reasonable spell cost increase, especially since we’re not having them test|<br>
+|v3 Fire, frost, and effects are increased to 2 x SL cost from 1 x SL|yes|if we’re taking the v3 costs, we should take the v3 spell effect costs|<br>
+|v3 sunlight is increased to 3 x SL from 2 x SL|yes|if we’re taking the v3 costs, we should take the v3 spell effect costs|<br>
+|Illusion|||<br>
+|v3 Calm adds the note: “If a character while under this spell’s effect is struck by a Frenzy  <br>effect, than this spell effect is immediately nullified”|yes|good note|<br>
+|v3 Frenzy adds the inverse note to calm’s: If a character while under this spell’s effect is struck by a Calm effect,  <br>than this spell effect is immediately nullified|yes|^|<br>
+|Mysticism|||<br>
+|v3 Absorb magicka always counts as lvl 4|no|We didn’t take this change in the spell either|<br>
+|v3 changes cure disease text to read: Affected target removes the Diseased SL Condition  <br>Spell Level 2 = Common  <br>Spell Level 4 = Magical  <br>Note: This effect always counts as being either Spell Level 2 or Spell Level 4.|yes|This is pretty well clarified in v3|<br>
+|v3 rejuvinate cost is increase to 25 from 20|yes|if we’re taking the v3 costs, we should take the v3 spell effect costs|</p></div><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Using v2 as base</li>
+<li data-line="1" dir="auto">cap the number of upkeeps at Binding Strength (BS)</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>BS comes from DoS of the enchanting test rather than Enchant Skill level
+<ul>
+<li data-line="3" dir="auto">Add a talent which adds a minimum BS of Enchant Skill Level</li>
+</ul>
+</li>
+<li data-line="4" dir="auto">Exclusion list for const enchants — Become Ethereal,</li>
+<li data-line="5" dir="auto">Includes Water Breathing &amp; Water Walking</li>
+<li data-line="6" dir="auto">Add an additional effect for constant enchantments — “Cursed” - the wearer cannot deactivate this enchantment</li>
+<li data-line="7" dir="auto">Add a formula for charges rather than the energy pool/max</li>
+<li data-line="8" dir="auto">Fix the optional rule to read “previous page”</li>
+<li data-line="9" dir="auto">Specify that spell restraint and overload do not apply to enchantment effects</li>
+<li data-line="10" dir="auto">Specify that once an item is enchanted it gains the magic quality</li>
+</ul></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Spell Effects" dir="auto" class="heading" id="Spell_Effects">Spell Effects</h1><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Keep an eye out for weird shit in v3</li>
+</ul></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="AP Refresh" dir="auto" class="heading" id="AP_Refresh">AP Refresh</h1><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Use v2 as base, v3 optional rule</li>
+</ul></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Mage Guard" dir="auto" class="heading" id="Mage_Guard">Mage Guard</h1><div class="heading-children"><div class="el-p"><p dir="auto">Mage Guard spell tag does nothing on its own. We add two talents — one that is Journeyman level that gives a flat +1 bonus when you do not spell restrain (not to be confused with overloading), and a second with the previous as a prereq at master level that grants you half your WpB (round up) when you don’t spell restrain</p></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Quick proof-read items" dir="auto" class="heading" id="Quick_proof-read_items">Quick proof-read items</h1><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Fix the second Haggling for a Bargain in our version to the correct title - Unscrupulous Traders</li>
+<li data-line="1" dir="auto">Remove magic tag from adamantium armor</li>
+</ul></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Slip-in changes" dir="auto" class="heading" id="Slip-in_changes">Slip-in changes</h1><div class="heading-children"><div class="el-p"><p dir="auto">Change the “Utilizing Untrained Weapons/Armor” section to read:</p></div><div class="el-blockquote"><blockquote dir="auto">
+<p>Characters who use Weapons, Armor, or other equipment that they are not trained to use suffer the usual -20 penalty for using an untrained skill on any associated combat tests, movement tests in the case of armor, or any other tests that the GM deems appropriate. The GM may choose to alter or ignore this penalty if they feel the circumstances do not apply.<br>
+Then, provide an example where a GM might rule out a penalty.</p>
+</blockquote></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#Enchanting"><div class="tree-item-contents heading-link" heading-name="Enchanting"><span class="tree-item-title">Enchanting</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#Spell_Effects"><div class="tree-item-contents heading-link" heading-name="Spell Effects"><span class="tree-item-title">Spell Effects</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#AP_Refresh"><div class="tree-item-contents heading-link" heading-name="AP Refresh"><span class="tree-item-title">AP Refresh</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#Mage_Guard"><div class="tree-item-contents heading-link" heading-name="Mage Guard"><span class="tree-item-title">Mage Guard</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#Quick_proof-read_items"><div class="tree-item-contents heading-link" heading-name="Quick proof-read items"><span class="tree-item-title">Quick proof-read items</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/uesrpg/uesrpg-3e-v4/the-road-to-v4/v3-merge-candidates.html#Slip-in_changes"><div class="tree-item-contents heading-link" heading-name="Slip-in changes"><span class="tree-item-title">Slip-in changes</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
